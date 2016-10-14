@@ -1,0 +1,15 @@
+{% set page_title = 'Home' %}
+
+{% extends 'html.twig' %}
+
+{% block body %}
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        {% block body_title %}
+          <h1>This is the homepage</h1>
+        {% endblock body_title %}
+      </div>
+    </div>
+  </div>
+{% endblock body %}

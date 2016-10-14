@@ -1,0 +1,17 @@
+{
+    "name": "catchdigital/simple-static-site",
+    "description": "Silex based static site framework with Twig",
+    "type": "project",
+    "require": {
+        "silex/silex": "^2.0",
+        "twig/twig": "^1.26"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stuart Wilson",
+            "email": "s.wilson@catchdigital.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
